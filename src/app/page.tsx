@@ -11,6 +11,7 @@ const page = () => {
           <video
             autoPlay
             loop
+            controls
             className="absolute inset-0 w-[932px] h-[full] object-cover z-0 rounded-2xl"
           >
             <source src="/images/instrument.mp4" type="video/mp4" />
