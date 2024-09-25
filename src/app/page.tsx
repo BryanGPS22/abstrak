@@ -10,7 +10,6 @@ const page = () => {
         <div className="relative">
           <video
             autoPlay
-            muted
             loop
             className="absolute inset-0 w-[932px] h-[full] object-cover z-0 rounded-2xl"
           >
