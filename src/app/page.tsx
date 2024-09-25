@@ -68,8 +68,19 @@ const page = () => {
           <h2 className="font-semibold text-[20px] text-center mt-10 font-poiret_one mb-6">
             Kepada Ombak Aku Berteriak
           </h2>
-
-          <p className="text-[16px] font-semibold text-gray-700 font-poiret_one">
+          <div className="relative">
+            <video
+              autoPlay
+              loop
+              controls
+              className="absolute inset-0 w-[932px] h-[full] object-cover z-0 rounded-2xl"
+            >
+              <source src="/images/river-flows.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+            <div className="absolute inset-0 bg-black bg-opacity-40 rounded-2xl"></div>
+          </div>
+          <p className="text-[16px] font-semibold text-gray-700 font-poiret_one mt-56">
             Ombak adalah puisi
           </p>
           <p className="text-[16px] font-semibold text-gray-700 font-poiret_one">
